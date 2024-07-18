@@ -1,0 +1,187 @@
+.content {
+  background: radial-gradient(
+    42.8% 42.8% at 50% 50%,
+    rgba(202, 60, 79, 0.3) 0%,
+    rgba(255, 108, 55, 0) 100%
+  );
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 100px 50px 0px 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  width: 400px;
+  height: 500px;
+  border: 3px solid #cf1002;
+  background: linear-gradient(
+    156.91deg,
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  );
+  border-radius: 30px;
+  padding: 20px 40px 0px 40px;
+}
+
+.header {
+  font-size: 45px;
+  color: #c4084f;
+  font-weight: 600;
+}
+
+.subheader {
+  padding-top: 6px;
+  font-size: 19px;
+}
+
+input {
+  width: 64%;
+  height: 50px;
+  border-radius: 7px;
+  border: 1px solid #e5e5e5;
+  padding-left: 62px;
+  padding-right: 80px;
+}
+
+.email-input {
+  margin-top: 20px;
+}
+
+.email-image {
+  position: absolute;
+  padding-left: 18px;
+  padding-top: 15px;
+}
+
+.password-input {
+  margin-top: 20px;
+}
+
+.lock-image {
+  position: absolute;
+  padding-left: 20px;
+  padding-top: 12px;
+}
+
+.visible-image {
+  position: absolute;
+  right: 600px;
+  top: 310px;
+  cursor: pointer;
+}
+
+.create-account {
+  padding-top: 15px;
+  display: flex;
+  font-size: 12px;
+}
+
+.create-account-text {
+  color: #7b7b7b;
+}
+
+.link-create-account {
+  color: #c4084f;
+  padding-left: 5px;
+  font-weight: 700;
+}
+
+.expert-login {
+  padding-top: 15px;
+  display: flex;
+  font-size: 12px;
+}
+
+.expert-login-text {
+  color: #7b7b7b;
+}
+
+.link-expert-login {
+  color: #ff6c37;
+  padding-left: 5px;
+  font-weight: 700;
+}
+
+.login-button {
+  margin-top: 15px;
+  background-color: #c4084f;
+  width: 100%;
+  height: 50px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  transition: 0.2s ease-in;
+  background-color: #8f0032;
+}
+
+.seperator {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 20px;
+  width: 70px;
+  height: 0px;
+  border: 1px solid #c4084f;
+}
+
+.seperator-text {
+  font-size: 9px;
+  color: #c4084f;
+  padding: 0 10px;
+}
+
+.third-party {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.google {
+  background-color: white;
+  border-radius: 100px;
+  width: 57px;
+  border: 1px solid #ff3d00;
+  cursor: pointer;
+}
+
+.google-image {
+  width: 50px;
+  padding-top: 3px;
+  padding-left: 4px;
+}
+
+.facebook {
+  cursor: pointer;
+}
+
+.facebook-image {
+  width: 55px;
+}
+
+.microsoft {
+  background-color: white;
+  border-radius: 100px;
+  width: 57px;
+  border: 1px solid #c4084f;
+  cursor: pointer;
+}
+
+.microsoft-image {
+  position: absolute;
+  top: 515px;
+  padding-left: 4px;
+  width: 50px;
+}
