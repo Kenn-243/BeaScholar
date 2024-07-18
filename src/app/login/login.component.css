@@ -75,6 +75,11 @@ input {
   cursor: pointer;
 }
 
+.visible-image:hover {
+  transition: 0.1s ease-in;
+  opacity: 0.5;
+}
+
 .create-account {
   padding-top: 15px;
   display: flex;
@@ -163,12 +168,22 @@ input {
   padding-left: 4px;
 }
 
+.google:hover {
+  transition: 0.1s ease-in;
+  opacity: 0.5;
+}
+
 .facebook {
   cursor: pointer;
 }
 
 .facebook-image {
   width: 55px;
+}
+
+.facebook-image:hover {
+  transition: 0.1s ease-in;
+  opacity: 0.5;
 }
 
 .microsoft {
@@ -184,4 +199,9 @@ input {
   top: 515px;
   padding-left: 4px;
   width: 50px;
+}
+
+.microsoft:hover {
+  transition: 0.1s ease-in;
+  opacity: 0.5;
 }

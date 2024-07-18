@@ -1,5 +1,8 @@
 import { Component } from '@angular/core';
 
+declare const gapi: any;
+declare var auth2: any;
+
 @Component({
   selector: 'app-login',
   standalone: true,
